@@ -43,7 +43,10 @@ namespace ConsoleApp14
             {
                 return Content;
             }
-            set { Content = value; }
+            set
+            {
+                Content = value;
+            }
         }
     }
     interface IBookInterface
